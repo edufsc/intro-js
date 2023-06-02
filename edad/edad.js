@@ -1,3 +1,4 @@
+// seleccionar el formulario
 const ageForm = document.querySelector("#ageForm");
 
 ageForm.addEventListener("submit", function (submitEvent) {

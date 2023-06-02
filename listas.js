@@ -37,3 +37,32 @@ const listaDiferentesTipos = [
 // crear una nueva lista vacía
 // añadir los números del 1 al 10 (con bucle)
 // mostrar la lista completa: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+let lista = [];
+
+let index = 1;
+
+while (index <= 10) {
+  lista.push(index);
+  index++;
+}
+
+console.log({ lista });
+
+lista = [];
+
+let j = 0;
+
+while (j < 10) {
+  lista.push(++j);
+}
+
+console.log({ lista });
+
+lista = [];
+
+while (lista.length < 10) {
+  lista.push(lista.length + 1);
+}
+
+console.log({ lista });
