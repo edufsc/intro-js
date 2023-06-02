@@ -27,6 +27,9 @@ Modificar el nombre del script insertado en index.html
 - ejercicios-js.js
 - ejercicios-js-2.js
 
+## Ejercicios con arrays y estructuras de control
+- /arrays/
+
 ## Ejemplo de formulario interactivo con HTML y JS
 - /edad/
 
