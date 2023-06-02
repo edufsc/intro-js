@@ -38,3 +38,6 @@ Modificar el nombre del script insertado en index.html
 
 ## App sencilla de lista de películas con HTML y JS. Se trabaja con arrays y localStorage
 - /peliculas/
+
+## Notas
+Si no se utiliza Live Server, es posible que no carguen algunos estilos, habrá que modificar la ruta del css
