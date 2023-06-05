@@ -48,6 +48,7 @@ function Persona(name, age) {
 }
 
 const person = new Persona("John", 25);
+console.log(person);
 person.sayHello(); // Salida: 'Hola, mi nombre es John y tengo 25 años.'
 
 // métodos de Clase
@@ -75,7 +76,7 @@ class Person {
     return this.age;
   }
 
-  // métodos consultores
+  // métodos modificadores
   // cambian  el valor de propiedades del objeto
   // no retornan ningún valor
   // comienzan con "set" por convención
@@ -83,7 +84,7 @@ class Person {
     this.name = name;
   }
 
-  setName(age) {
+  setAge(age) {
     this.age = age;
   }
 }

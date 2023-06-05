@@ -7,16 +7,14 @@ let suma = num1 + num2;
 console.log(suma); // Debería imprimir 15
 
 // Convertir en una función
-function sumar(num1, num2) {
-  return num1 + num2;
+
+function sum(a, b) {
+  return a + b;
 }
 
 // Llamada a la función
-let sumaFuncion = sumar(num1, num2);
 
-console.log(sumaFuncion); // Debería imprimir 15, como antes
+console.log(sum(num1, num2));
 
 // Llamada a la función con otros argumentos
-let otroResultado = sumar(20, 32);
-
-console.log(otroResultado); // Debería imprimir 52
+console.log(sum(10, 20));

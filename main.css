@@ -60,6 +60,7 @@ li {
     border: 0;
     font-weight: bold;
     cursor: pointer;
+    font-size: inherit;
 }
 
 .btn-primary {

@@ -52,4 +52,32 @@ function imprimirPeliculas() {
   }
 }
 
-// borrar películas
+// borrar películas (y todo lo que haya en localStorage)
+function vaciarTodo() {
+  // vaciar localStorage
+  localStorage.clear();
+  // seleccionar contenedor películas
+  let contenedorPelis = document.querySelector("#contenedorPelis");
+  // limpiar contenedor de películas
+  contenedorPelis.innerHTML = "";
+  // vaciar lista
+  peliculas = [];
+}
+
+function vaciarPeliculas() {
+  // vaciar localStorage
+  localStorage.removeItem("peliculas");
+  // seleccionar contenedor películas
+  let contenedorPelis = document.querySelector("#contenedorPelis");
+  // limpiar contenedor de películas
+  contenedorPelis.innerHTML = "";
+  // vaciar lista
+  peliculas = [];
+}
+
+let btnVaciar = document.getElementById("btn-vaciar");
+console.log({ btnVaciar });
+
+btnVaciar.addEventListener("click", function (_event) {
+  vaciarPeliculas();
+});

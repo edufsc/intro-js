@@ -6,7 +6,7 @@
 // - Si el número es divisible entre 5: "Click"
 // - Si el número es divisible entre 3: "Clack"
 // - Si es divisible entre 5 y entre 3: "ClickClack"
-// - Si no es divisible entre 5 ni entre 7: el número tal cual
+// - Si no es divisible entre 5 ni entre 3: el número tal cual
 
 // Ejemplo de salida para "limit = 15"
 // 1
